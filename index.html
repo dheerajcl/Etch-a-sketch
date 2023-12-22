@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="script.js"></script>
+    <title>Etch-a-sketch</title>
+</head>
+<body>
+    <h2>Etch-a-sketch</h2>
+    <div id="controls">
+        <p>Pick a color</p>
+        <input type="color" id="color-picker" value="#000000">
+        <span id="color-value">#000000</span>
+        <p>Choose the grid size</p>
+        <input type="range" id="size-slider" min="1" max="100" value="16">
+        <output id="size-value">16</output>
+        <button id="eraser">Eraser</button>
+        <button id="clear">Clear</button>
+    </div>
+    <div id="sketch-container">
+    </div>
+</body>
+</html>
